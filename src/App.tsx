@@ -18,7 +18,7 @@ function App() {
         {COMPONENTS.map(({ title, Component }) => {
           return (
             <div className="space-y-2">
-              <h2 className="font-bold text-gray-800">{title}</h2>
+              <h2 className="font-bold text-gray-700">{title}</h2>
               <Component />
             </div>
           );
